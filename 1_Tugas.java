@@ -1,6 +1,6 @@
-package firstmateri;
+package ${package};
 import java.util.*;
-public class Tugas {
+public class ${name} {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Loket Pembelian Tiket");
