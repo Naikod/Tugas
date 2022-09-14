@@ -14,14 +14,11 @@ public class Tugas {
             System.out.println("Golongan Pendapatan yang tersedia: \n>  A \n> B \n> C");
             golongan = input.next();
             if (golongan.equalsIgnoreCase("A")) {
-                System.out.println("DSP = 5 JUTA");
-                System.out.println("SPP = 500 RIBU");
+                System.out.println("DSP: 5 JUTA\nSPP: 500 RIBU");
             } else if (golongan.equalsIgnoreCase("B")) {
-                System.out.println("DSP = 15 JUTA");
-                System.out.println("SPP = 1 JUTA");
+                System.out.println("DSP: 15 JUTA\nSPP: 1 JUTA");
             } else if (golongan.equalsIgnoreCase("C")) {
-                System.out.println("DSP = 30 JUTA");
-                System.out.println("SPP = 2 JUTA");
+                System.out.println("DSP: 30 JUTA\nSPP: 2 JUTA");
             } else {
                 System.out.println("Golongan Pendapatan "+golongan+" tidak tersedia");
             }
@@ -30,14 +27,11 @@ public class Tugas {
             System.out.println("Golongan Pendapatan yang tersedia: \n>  A \n> B \n> C");
             golongan = input.next();
             if (golongan.equalsIgnoreCase("a")) {
-                System.out.println("DSP = 5 JUTA");
-                System.out.println("SPP = 500 RIBU");
+                System.out.println("DSP: 5 JUTA\nSPP: 500 RIBU");
             } else if (golongan.equalsIgnoreCase("b")) {
-                System.out.println("DSP = 15 JUTA");
-                System.out.println("SPP = 1 JUTA");
+                System.out.println("DSP: 15 JUTA\nSPP: 1 JUTA");
             } else if (golongan.equalsIgnoreCase("c")) {
-                System.out.println("DSP = 30 JUTA");
-                System.out.println("SSP = 2 JUTA");
+                System.out.println("DSP: 30 JUTA\nSSP: 2 JUTA");
             } else {
                 System.out.println("Golongan Pendapatan "+golongan+" tidak tersedia");
             }
