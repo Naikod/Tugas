@@ -5,6 +5,7 @@
         String[] Simbol={"+","x","-",":","="};
         Boolean Repeat = true;
         while(Repeat==true){
+            System.out.println("Calculator Onlen");
             int hasil=0,
                 bilangan1=0,
                 bilangan2=0,
