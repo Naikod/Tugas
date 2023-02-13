@@ -46,6 +46,7 @@ public class run {
         InputKilogram = in.nextInt();
         if (InputJenisLaundry == 1)
         {
+            //                  CONTOH:    inputnya 5, harganya 10.000 == hasilnya 5*10.000 = 50.000, jadi TotalHarga = 50.000
             TotalHarga = l.totalLaundry(InputKilogram, 10000);
         } 
         else if (InputJenisLaundry == 2)
@@ -65,8 +66,10 @@ public class run {
                 + "\n===================="
                 + "\nJenis Laundry\t\t"+InputJenisLaundry
                 + " - "+InputKilogram + " Kilogram"
+                //                    50.000   :   5        = 10.000
                 + "\nHarga /kg\t\t"+(TotalHarga/InputKilogram)
                 + "\nTotal\t\t"+TotalHarga
+                //                    100.000    -  50.000 = 50.000
                 + "\nKembalian\t\t"+(c.getSaldo()-TotalHarga)
         );
         
